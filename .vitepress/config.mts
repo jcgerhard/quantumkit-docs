@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
     title: 'Quantumkit',
     description: 'VS Code extension for Hybrid Software engineers',
+    base: '/quantumkit-docs/',
     srcDir: 'src',
     outDir: 'dist',
     cacheDir: 'cache',
