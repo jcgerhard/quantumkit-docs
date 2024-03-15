@@ -1,0 +1,17 @@
+{
+    "name": "quantumkit-docs",
+    "version": "0.0.1",
+    "description": "VS Code extension for Hybrid Software engineers",
+    "main": "index.js",
+    "scripts": {
+        "docs:dev": "vitepress dev",
+        "docs:build": "vitepress build",
+        "docs:preview": "vitepress preview",
+        "project:cleanup": "rm -rf cache dist"
+    },
+    "author": "Jan Gerhard",
+    "license": "ISC",
+    "devDependencies": {
+        "vitepress": "^1.0.0-rc.45"
+    }
+}
