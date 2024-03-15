@@ -6,7 +6,7 @@ export default defineConfig({
     description: 'VS Code extension for Hybrid Software engineers',
     base: '/quantumkit-docs/',
     srcDir: 'src',
-    outDir: 'dist',
+    outDir: 'docs',
     cacheDir: 'cache',
     themeConfig: {
         search: {
