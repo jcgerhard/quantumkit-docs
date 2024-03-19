@@ -1,1 +1,70 @@
-# Recommendations
+---
+layout: page
+---
+<script setup>
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamMembers
+} from 'vitepress/theme'
+
+const members = [
+  {
+    avatar: '../assets/Quantumkit-Docs-Eslint.svg',
+    name: 'ESLint',
+    title: 'Microsoft.com',
+    links: [
+      {
+        icon: {
+          svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Microsoft Marketplace</title><path fill-rule="evenodd" clip-rule="evenodd" d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24ZM13 12.9782V18.9347L18.9564 18.9564C18.9689 18.9564 18.9782 18.9471 18.9782 18.9347V12.9999L13 12.9782ZM4.97822 18.9347C4.97822 18.9471 4.98756 18.9564 5 18.9564H11V12.9999H4.97822V18.9347ZM13 4.95624L12.9782 10.9784L18.9564 10.9786L18.9782 4.97821C18.9782 4.96577 18.9689 4.95644 18.9564 4.95644L13 4.95624ZM4.97822 4.95663V10.9786L11 10.9999V4.95624L4.97822 4.95663Z"/></svg>'
+        },
+        link: 'https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint',
+        ariaLabel: 'Microsoft Marketplace'
+      },
+      { icon: 'github', link: 'https://github.com/Microsoft/vscode-eslint', ariaLabel: 'Github' },
+    ]
+  },
+  {
+    avatar: '../assets/Quantumkit-Docs-Prettier.svg',
+    name: 'Prettier',
+    title: 'Prettier.io',
+    links: [
+      {
+        icon: {
+          svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Microsoft Marketplace</title><path fill-rule="evenodd" clip-rule="evenodd" d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24ZM13 12.9782V18.9347L18.9564 18.9564C18.9689 18.9564 18.9782 18.9471 18.9782 18.9347V12.9999L13 12.9782ZM4.97822 18.9347C4.97822 18.9471 4.98756 18.9564 5 18.9564H11V12.9999H4.97822V18.9347ZM13 4.95624L12.9782 10.9784L18.9564 10.9786L18.9782 4.97821C18.9782 4.96577 18.9689 4.95644 18.9564 4.95644L13 4.95624ZM4.97822 4.95663V10.9786L11 10.9999V4.95624L4.97822 4.95663Z"/></svg>'
+        },
+        link: 'https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode',
+        ariaLabel: 'Microsoft Marketplace'
+      },
+      { icon: 'github', link: 'https://github.com/prettier/prettier-vscode', ariaLabel: 'Github' },
+    ]
+  },
+  {
+    avatar: '../assets/Quantumkit-Docs-SpellChecker.svg',
+    name: 'SpellChecker',
+    title: 'Streetsidesoftware.com',
+    links: [
+      {
+      icon: {
+          svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Microsoft Marketplace</title><path fill-rule="evenodd" clip-rule="evenodd" d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24ZM13 12.9782V18.9347L18.9564 18.9564C18.9689 18.9564 18.9782 18.9471 18.9782 18.9347V12.9999L13 12.9782ZM4.97822 18.9347C4.97822 18.9471 4.98756 18.9564 5 18.9564H11V12.9999H4.97822V18.9347ZM13 4.95624L12.9782 10.9784L18.9564 10.9786L18.9782 4.97821C18.9782 4.96577 18.9689 4.95644 18.9564 4.95644L13 4.95624ZM4.97822 4.95663V10.9786L11 10.9999V4.95624L4.97822 4.95663Z"/></svg>'
+        },
+        link: 'https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker',
+        ariaLabel: 'Microsoft Marketplace'
+      },
+      { icon: 'github', link: 'https://github.com/streetsidesoftware/vscode-spell-checker', ariaLabel: 'Github' },
+    ]
+  }
+]
+</script>
+
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <template #title>
+      Recommended Extensions
+    </template>
+    <template #lead>
+      A highly recommend list of curated VS Code extensions making your development experience more enjoyable
+    </template>
+  </VPTeamPageTitle>
+  <VPTeamMembers :members="members"/>
+</VPTeamPage>
