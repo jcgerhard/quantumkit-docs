@@ -2,15 +2,19 @@
 
 ### QKit: Open Quantumkit Docs
 
+### QKit: Add Cloudflow Instance
+
+### Qkit: Add Cloudflow Instance
+
 ### QKit: Set Active Cloudflow Instance
 
-### Qkit: Get Active Cloudflow Instance
+### QKit: List Cloudflow Instances
 
 ### QKit: Open Cloudflow Manual
 
-### QKit: Open Cloudflow Web-Service API Docs
+### QKit: Open Cloudflow Web-Service API
 
-### Qkit: Open Cloudflow Javascript API Docs
+### QKit: Open Cloudflow Javascript API
 
 ### QKit: Open Redmine
 
@@ -20,4 +24,8 @@
 
 ### QKit: Open Confluence
 
-### Qkit: Open Quantumkit Settings
+### QKit: Open OTRS Ticket System
+
+### QKit: Open Quantumkit Settings
+
+### QKit: Open Cloudflow Whitepaper
