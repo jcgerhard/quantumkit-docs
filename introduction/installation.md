@@ -12,13 +12,13 @@ The distribution and installation is currently being implemented via MARS app.
 1. Open the MARS client in your Cloudflow
 2. Search for something like...
    * Description: "Quantumkit"
-   * Maintainer: "be-tnt152"
-   * App Name: "be-tnt152-quantumkit"
+   * Maintainer: "be-tnt130"
+   * App Name: "be-tnt130-quantumkit"
 3. Install the MARS app on your Cloudflow
 
 The installation creates a folder `"quantumkit"` in `"PP_FILE_STORE"` with the following content:
 
-```json
+```
 .
 └── PP_FILE_STORE
     └── quantumkit
@@ -28,7 +28,7 @@ The installation creates a folder `"quantumkit"` in `"PP_FILE_STORE"` with the f
         ├── icon
         │   └── Quantumkit-Icon-MARS.svg
         └── vsix
-            └── quantumkit-0.0.1.vsix        <-------- Installation file!
+            └── quantumkit-x.x.x.vsix        <-------- Installation file!
 ```
 
 You need the `.vsix` package file that is located in the `vsix` folder.\
