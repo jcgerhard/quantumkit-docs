@@ -1,31 +1,31 @@
 # Commands
 
-### QKit: Open Quantumkit Docs
+### Open Quantumkit Docs
 
-### QKit: Add Cloudflow Instance
+### Add Cloudflow Instance
 
-### Qkit: Add Cloudflow Instance
+### Add Cloudflow Instance
 
-### QKit: Set Active Cloudflow Instance
+### Set Active Cloudflow Instance
 
-### QKit: List Cloudflow Instances
+### List Cloudflow Instances
 
-### QKit: Open Cloudflow Manual
+### Open Cloudflow Manual
 
-### QKit: Open Cloudflow Web-Service API
+### Open Cloudflow Web-Service API
 
-### QKit: Open Cloudflow Javascript API
+### Open Cloudflow Javascript API
 
-### QKit: Open Redmine
+### Open Redmine
 
-### QKit: Open TRAC
+### Open TRAC
 
-### QKit: Open Hybrid Hub
+### Open Hybrid Hub
 
-### QKit: Open Confluence
+### Open Confluence
 
-### QKit: Open OTRS Ticket System
+### Open OTRS Ticket System
 
-### QKit: Open Quantumkit Settings
+### Open Quantumkit Settings
 
-### QKit: Open Cloudflow Whitepaper
+### Open Cloudflow Whitepaper

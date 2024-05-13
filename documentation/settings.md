@@ -1,9 +1,9 @@
 # Settings
 
-### Quantumkit: Show Status Bar
+### Show Status Bar
 
-### Quantumkit: Preferred Language
+### Preferred Language
 
-### Quantumkit: User Full Name
+### User Full Name
 
-### Quantumkit: User Shortcut
+### User Shortcut
