@@ -3,8 +3,9 @@
 ## Introduction
 
 * [About](README.md)
-* [Installation](introduction/installation.md)
-* [Updating](introduction/updating.md)
+* [Install](introduction/install.md)
+* [Update](introduction/update.md)
+* [Uninstall](introduction/uninstall.md)
 
 ## Documentation
 
